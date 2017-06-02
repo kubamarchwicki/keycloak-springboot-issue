@@ -1,0 +1,9 @@
+server:
+  port: 9999
+
+keycloak:
+  auth-server-url: http://localhost:8080/auth
+  realm: security-examples
+  resource: demo
+  public-client: true
+  ssl-required: external
